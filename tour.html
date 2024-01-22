@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/yro1qee.css" />
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+
+    <script src="js/gsap.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/ScrollSmoother.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"></script>
+  </head>
+
+  <div class="bg_form">
+    <img src="img/close.svg" class="close" alt="" />
+    <div class="form">
+      <div class="form_title">Вход для агенств</div>
+      <input type="email" placeholder="Адрес электронной почты" />
+      <input type="password" placeholder="Пароль" />
+      <div class="form_btns pass">
+        <a href="">Забыли пароль?</a>
+        <button>Войти</button>
+      </div>
+
+      <div class="form_btns reg">
+        <a href="">Регистрация</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg_form_z">
+    <img src="img/close.svg" class="close" alt="" />
+    <div class="form">
+      <div class="form_title">Оставить заявку</div>
+      <input type="name" placeholder="Имя" />
+      <input type="email" placeholder="email" />
+      <input type="phone" placeholder="+7" />
+      <div class="form_btns pass">
+        <button>Отправить</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="burger_menu">
+    <a href=""><img src="img/logo.svg" class="logo" alt="" /></a>
+    <img src="img/close.svg" class="close" alt="" />
+
+    <div class="container">
+      <div class="burger_menu_content">
+        <div class="burger_menu_block">
+          <a href="">О нас</a>
+          <a href="">Направления и туры</a>
+          <a href="">Агентствам</a>
+          <a href="">Корпоративным клиентам</a>
+          <a href="">Подобрать тур</a>
+          <a href="https://designhead.ru/solid2/contacts.html">Контакты</a>
+        </div>
+        <div class="burger_menu_btns">
+          <div class="btn">Бронирование</div>
+          <div class="btn">Для агентств</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <body>
+    <div class="top_banner">
+      <img src="img/tour.jpg" class="tourbg" alt="" />
+      <div class="header">
+        <div class="container">
+          <div class="header_block">
+            <a href=""><img src="img/logo.svg" class="logo" alt="" /></a>
+            <div class="menu">
+              <a href="">О нас</a>
+              <a href="">Направления и туры</a>
+              <a href="">Агентствам</a>
+              <a href="">Корпоративным клиентам</a>
+              <a href="">Подобрать тур</a>
+              <a href="https://designhead.ru/solid2/contacts.html">Контакты</a>
+            </div>
+            <img src="img/search.svg" class="search" alt="" />
+            <div class="btns">
+              <div class="btn">Бронирование</div>
+              <div class="btn">Для агентств</div>
+            </div>
+            <div class="burger">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top_banner_container tour_banner">
+        <div class="container">
+          <div class="top_banner_nav">
+            <a href="">Главная</a>
+            <span>/</span>
+            <a href="">Месопотамия — Истоки Цивилизации</a>
+          </div>
+        </div>
+        <div class="top_banner_content">
+          <div class="container">
+            <h1 class="title_tour">Месопотамия — Истоки Цивилизации</h1>
+            <div class="path_block">
+              <div class="path_item">Стамбул</div>
+              <div class="path_item">Газиантеп</div>
+              <div class="path_item">Адияман</div>
+              <div class="path_item">Урфа</div>
+              <div class="path_item">Мардин</div>
+              <div class="path_item">Мидьят</div>
+              <div class="path_item">Диярбакыр</div>
+              <div class="path_item">Стамбул</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="tour_content_block">
+        <div class="content">
+          <p>
+            Скидка на ребенка - действует в том случае, если ребенок проживает в
+            номере с двумя взрослыми.
+          </p>
+
+          <p>
+            В стоимость тура входит: проживание в отелях 3-4*; питание завтраки
+            + ужины (напитки за ужином не включены); переезды на комфортабельном
+            автобусе; услуги профессионального русскоговорящего
+            гида-экскурсовода; входные билеты в музеи.
+          </p>
+
+          <p>
+            Дополнительно оплачивается: Виза; дополнительные экскурсии; чаевые
+            гиду, водителю и работникам гостиниц (по желанию).
+          </p>
+
+          <div class="tour_block_list_block">
+            <div class="tour_block_list">
+              <div class="tour_block_list_title">
+                <span>1 день</span>
+              </div>
+              <div class="tour_block_list_content">
+                <p>
+                  Прилет в Стамбул. Трансфер аэропорт - отель. Размещение в
+                  отеле. Свободное время. Ужин.
+                </p>
+              </div>
+            </div>
+
+            <div class="tour_block_list">
+              <div class="tour_block_list_title">
+                <span>2 день</span>
+              </div>
+              <div class="tour_block_list_content">
+                <p>
+                  Завтрак. Трансфер в аэропорт Стамбула и перелет в Газиантеп.
+                  Посещение музея мозаики Зеугма, где можно увидеть такие
+                  экспонаты, как статуя римской эпохи Марса, фонтаны римской
+                  эпохи, виллы на берегу реки Евфрат и другое. Далее мы
+                  проследуем к историческому центру Газиантепа, побродим по
+                  узким улочкам, окруженным старинными каменными и деревянными
+                  домиками, и посетим местный восточный базар. Газиантеп
+                  является столицей пахлавы, поэтому сегодня мы обязательно
+                  попробуем этот национальный турецкий десерт. Размещение в
+                  отеле. Ужин.
+                </p>
+                <img src="img/i1.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="tour_block_list">
+              <div class="tour_block_list_title"><span>3 день</span></div>
+              <div class="tour_block_list_content">
+                <p>
+                  Завтрак. Переезд в г. Халфети (~ 100 км). Этот
+                  удивительныйгород является настоящим оазисом посреди степи,
+                  впитавшим в себя всю удивительную красоту и богатую историю
+                  древней Анатолии. Расположенный на берегу легендарной и самой
+                  большой реки Западной Азии Евфрат, он является одним из самых
+                  старейших городов Турции. Благодаря историческим каменным
+                  домам и природной красоте его также называют «Скрытым раем»
+                  Юго-Востока. Увидеть затопленный городок Халфети мы сможем во
+                  время прогулки на лодках. Далее переезд в Адыяман (~ 120 км) и
+                  подъем на гору Немрут, которая является одновременно и
+                  национальным парком под охраной ЮНЕСКО. Мы увидим один из
+                  самых красивых и удивительных закатов в мире и в лучах
+                  заходящего солнца на вершине Немрут посетим погребальный
+                  комплекс царя Антиоха, давшего название древней провинции
+                  Антиохии. Размещение в отеле. Ужин.
+                </p>
+                <img src="img/i1.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="tour_block_list">
+              <div class="tour_block_list_title">
+                <span>4 день</span>
+              </div>
+              <div class="tour_block_list_content">
+                <p>
+                  Завтрак. Переезд в г. Урфа (~ 110 км). По дороге мы посетим
+                  Плотину им. Ататюрка на реке Евфрат, которая была построена
+                  для выработки электроэнергии и для орошения равнин в регионе.
+                  Далее нас ждет экскурсия по г. Урфа, который называют «Городом
+                  пророков». Этот город считается местом жительства 5-и
+                  пророков, включая легендарного Авраама, который откочевал
+                  отсюда на земли древней Палестины. Мы посетим Археологический
+                  музей, являющийся крупнейшим музеем Турции по количеству
+                  артефактов, около 10 000 начиная с эпохи палеолита и
+                  заканчивая исламским периодом, и посетим Священное озеро
+                  Балыклы-Гёль с карпами. А в конце дня побродим по улочкам
+                  этого старинного города, посетим базары и обязательно отведаем
+                  турецкий кофе. Размещение в отеле. Ужин.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="attention_block">
+          <div class="content_title">Обратите внимание</div>
+          <p>
+            Фирма оставляет за собой право менять порядок посещения
+            экскурсионных объектов, сохраняя программу в целом.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer_bg">
+      <img src="img/tour.jpg" alt="" class="footer_bg_img" />
+      <div class="container">
+        <div class="contacts">
+          <div class="footer_btn_block">
+            <div class="footer_btn btn_bg">
+              <span>Составить программу </span
+              ><img src="img/footer_btn.svg" alt="" />
+            </div>
+
+            <div class="footer_btn_soc">
+              <div class="footer_btn_soc_title">Для связи:</div>
+              <div class="soc">
+                <a href=""> <img src="img/tg.svg" alt="" /></a>
+                <a href=""> <img src="img/wap.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_info">
+          <div class="footer_info_logo">
+            <a href=""><img src="img/logo.svg" class="logo" alt="" /></a>
+          </div>
+          <div class="footer_info_block">
+            <span
+              >Круглосуточная служба поддержки туристов Solid в Стамбуле:</span
+            >
+            <div class="phone">+90 (533) 956 99 72</div>
+
+            <a
+              href="https://designhead.ru/solid2/contacts.html"
+              class="btncontacts"
+              >Контакты</a
+            >
+          </div>
+          <div class="footer_info_block">
+            <span>Центральный офис в Стамбуле:</span><br /><br />
+            Opera İş Merkezi, Dunya Sağlik Sok. No. 25/3, Gümüssuyu Mah.,Taksim,
+            Beyoglu, Istanbul Тел.: +90 (212) 244 74 84 E-mail:
+            hotel@solidtravel.com.tr
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  new fullpage("#fullpage", {
+    verticalCentered: true,
+    anchors: ["hero1", "hero2", "hero3"],
+    scrollOverflow: true,
+
+    onLeave: function (index, nextIndex, direction) {
+      // Добавляем анимацию уменьшения для текущей секции с задержкой
+      setTimeout(function () {
+        $(".section")
+          .eq(index - 1)
+          .addClass("scale-down");
+      }, 100); // задержка в 100 мс
+
+      // Проверяем, уходим ли мы из секции hero3
+      if (index == 3 && direction == "up") {
+        fullpage_api.setAutoScrolling(true);
+        fullpage_api.setFitToSection(true);
+      }
+    },
+
+    afterLoad: function (anchorLink, index) {
+      // Удаляем анимацию уменьшения для текущей секции
+      $(".section").removeClass("scale-down");
+
+      // Проверяем, достигли ли мы секции hero3
+      if (index === 3) {
+        fullpage_api.setAutoScrolling(false);
+        fullpage_api.setFitToSection(false);
+      }
+    },
+
+    onLeave: function (origin, destination, direction) {
+      // Дополнительная проверка, что секция действительно покинута
+      if (origin.item.classList.contains("active")) {
+        // Сбрасываем анимацию для .title и .img_block img в покидающей секции
+        gsap.set(origin.item.querySelectorAll(".title"), { opacity: 0, y: 50 });
+        gsap.set(origin.item.querySelectorAll(".img_block img"), {
+          opacity: 0,
+          x: 100,
+        });
+      }
+    },
+
+    afterLoad: function (origin, destination, direction) {
+      // Воспроизводим анимацию для .title и .img_block img в активной секции
+      gsap.to(destination.item.querySelectorAll(".title"), {
+        duration: 1,
+        opacity: 1,
+        y: 0,
+        ease: "power2.out",
+      });
+      gsap.to(destination.item.querySelectorAll(".img_block img"), {
+        duration: 1,
+        opacity: 1,
+        x: 0,
+        ease: "power2.out",
+      });
+    },
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $(".img-svg").each(function () {
+      var $img = $(this);
+      var imgClass = $img.attr("class");
+      var imgURL = $img.attr("src");
+
+      var imgWidth = $img.css("width");
+      var imgHeight = $img.css("height");
+
+      $.get(
+        imgURL,
+        function (data) {
+          var $svg = $(data).find("svg");
+          if (typeof imgClass !== "undefined") {
+            $svg = $svg.attr("class", imgClass + " replaced-svg");
+          }
+          $svg = $svg.removeAttr("xmlns:a");
+
+          // Устанавливаем размеры из стилей изображения
+          $svg.css("width", imgWidth);
+          $svg.css("height", imgHeight);
+
+          if (
+            !$svg.attr("viewBox") &&
+            $svg.attr("height") &&
+            $svg.attr("width")
+          ) {
+            $svg.attr(
+              "viewBox",
+              "0 0 " + $svg.attr("height") + " " + $svg.attr("width")
+            );
+          }
+          $img.replaceWith($svg);
+        },
+        "xml"
+      );
+    });
+  });
+</script>
+
+<script></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.to(".descr", {
+    scrollTrigger: {
+      trigger: ".descr",
+      start: "top 300px", // Анимация начинается, когда верх блока `.descr` 300px от верха экрана
+      end: "bottom bottom", // Анимация заканчивается, когда нижняя часть блока `.descr` достигает верха экрана
+      toggleActions: "play none none reverse", // Определяет действия при прокрутке вперед и назад
+      scrub: true, // Плавное выполнение анимации в зависимости от скролла
+    },
+    opacity: 0, // Конечная прозрачность (0 - полностью прозрачный)
+    ease: "power1.inOut", // Тип анимации для более плавного перехода
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const imgs = document.querySelectorAll(".img_block img:not(.line2)"); // Исключаем картинку с классом .line2
+
+    document.addEventListener("mousemove", (e) => {
+      const { clientX, clientY } = e;
+      const centerX = window.innerWidth / 2;
+      const centerY = window.innerHeight / 2;
+
+      imgs.forEach((img, index) => {
+        const factor = index % 2 === 0 ? -1 : 1;
+        const x = ((clientX - centerX) * factor) / 20;
+        const y = ((clientY - centerY) * factor) / 20;
+
+        // Ограничение движения картинок в пределах 50px
+        const translateX = Math.min(Math.max(x, -50), 50);
+        const translateY = Math.min(Math.max(y, -50), 50);
+
+        // Задаем разные скорости анимации
+        const duration = 0.5 + index * 0.1; // например, 0.5s для первой картинки, 0.6s для второй и т.д.
+
+        gsap.to(img, {
+          x: translateX,
+          y: translateY,
+          ease: "power1.out",
+          duration: duration,
+        });
+      });
+    });
+
+    document.addEventListener("mouseleave", () => {
+      imgs.forEach((img) => {
+        gsap.to(img, {
+          x: 0,
+          y: 0,
+          ease: "power1.out",
+          duration: 0.6,
+        });
+      });
+    });
+  });
+</script>
+
+<script>
+  // Получаем все элементы с классом tour_btn_item и tour_block
+  const tourBtnItems = document.querySelectorAll(".tour_btn_item");
+  const tourBlocks = document.querySelectorAll(".tour_block");
+
+  // Функция для обработки клика по элементу
+  function handleTourBtnItemClick(event) {
+    // Убираем класс tour_btn_item_active у всех элементов
+    tourBtnItems.forEach((item) =>
+      item.classList.remove("tour_btn_item_active")
+    );
+
+    // Добавляем класс tour_btn_item_active к элементу, по которому кликнули
+    event.currentTarget.classList.add("tour_btn_item_active");
+
+    // Получаем индекс кликнутого элемента
+    const index = Array.from(tourBtnItems).indexOf(event.currentTarget);
+
+    // Переключаем класс tour_block_active для соответствующего блока
+    tourBlocks.forEach((block, i) => {
+      block.classList.toggle("tour_block_active", i === index);
+    });
+  }
+
+  // Добавляем обработчик событий для каждого элемента
+  tourBtnItems.forEach((item) => {
+    item.addEventListener("click", handleTourBtnItemClick);
+  });
+</script>
+
+<script>
+  // Инициализация переменных для индикатора
+  let currentSlide = 1;
+  const totalSlides = document.querySelectorAll(".swiper-slide").length;
+  const numberElement = document.querySelector(".number");
+  const circleElement = document.querySelector(".slider_nav_ring circle");
+  const delay = 2500; // Задержка автопрокрутки
+  let intervalId;
+  const circumference = 2 * Math.PI * circleElement.r.baseVal.value;
+
+  // Установка начального общего числа слайдов
+  document.querySelector(".all").textContent = totalSlides;
+
+  // Функция обновления номера слайда
+  function updateSlideNumber(newNumber) {
+    currentSlide = newNumber % totalSlides || totalSlides; // Обновление для бесконечной прокрутки
+    numberElement.textContent = currentSlide;
+  }
+
+  // Функция для обновления индикатора времени
+  function updateIndicator() {
+    let offset = circumference;
+    clearInterval(intervalId);
+    intervalId = setInterval(() => {
+      offset -= circumference / (delay / 10); // обновляем смещение каждые 10 мс
+      circleElement.style.strokeDashoffset = offset;
+      if (offset <= 0) {
+        clearInterval(intervalId);
+      }
+    }, 10);
+  }
+
+  // Инициализация Swiper
+  var mySwiper = new Swiper(".swiper-container", {
+    slidesPerView: "auto",
+    spaceBetween: 10,
+    centeredSlides: false,
+    loop: true, // Включаем бесконечную прокрутку
+    autoplay: {
+      delay: delay,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".next",
+      prevEl: ".prev",
+    },
+    on: {
+      slideChange: function () {
+        updateSlideNumber(this.realIndex + 1);
+        updateIndicator(); // Обновляем индикатор при смене слайда
+      },
+    },
+  });
+
+  // Инициализация кольцевого индикатора
+  circleElement.style.strokeDasharray = circumference;
+  circleElement.style.strokeDashoffset = circumference;
+
+  // Запускаем индикатор в начале
+  updateIndicator();
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let activeIndex = 0; // Текущий активный блок
+    const items = document.querySelectorAll(".rew_block_item"); // Все блоки
+    const total = items.length; // Общее количество блоков
+    const container = document.querySelector(".rew_block"); // Контейнер для блоков
+
+    // Функция для обновления высоты контейнера
+    function updateContainerHeight() {
+      const activeItemHeight = items[activeIndex].offsetHeight;
+      container.style.height = `${activeItemHeight}px`;
+    }
+
+    // Функция для обновления активного блока
+    function updateActiveBlock() {
+      // Удаление класса 'active' у всех блоков
+      items.forEach((item) => item.classList.remove("rew_block_item_active"));
+
+      // Добавление класса 'active' к текущему активному блоку
+      const activeItem = items[activeIndex];
+      activeItem.classList.add("rew_block_item_active");
+
+      // Обновление высоты контейнера
+      updateContainerHeight();
+    }
+
+    // Инициализация первого блока как активного
+    updateActiveBlock();
+
+    // Обработка клика на стрелку "вперед"
+    document.querySelector(".nextrew").addEventListener("click", function () {
+      activeIndex = (activeIndex + 1) % total; // Перемещение вперед
+      updateActiveBlock(); // Обновление активного блока
+    });
+
+    // Обработка клика на стрелку "назад"
+    document.querySelector(".prevrew").addEventListener("click", function () {
+      activeIndex = (activeIndex - 1 + total) % total; // Перемещение назад
+      updateActiveBlock(); // Обновление активного блока
+    });
+
+    // Обновление высоты контейнера при изменении размера окна
+    window.addEventListener("resize", updateContainerHeight);
+  });
+</script>
+
+<script>
+  // JavaScript
+  document.addEventListener("DOMContentLoaded", function () {
+    const bgForm = document.querySelector(".bg_form");
+    const form = bgForm.querySelector(".form");
+    const btnsOpen = document.querySelectorAll(".btn"); // Все кнопки для открытия формы
+    const btnClose = bgForm.querySelector(".close"); // Кнопка закрытия формы
+
+    // Функция для открытия формы
+    function openForm() {
+      bgForm.style.display = "flex";
+    }
+
+    // Функция для закрытия формы
+    function closeForm() {
+      bgForm.style.display = "none";
+    }
+
+    // Добавляем обработчик событий на каждую кнопку для открытия формы
+    btnsOpen.forEach(function (button) {
+      button.addEventListener("click", openForm);
+    });
+
+    // Закрыть форму при клике на кнопку закрытия
+    btnClose.addEventListener("click", closeForm);
+
+    // Закрыть форму при клике вне формы
+    bgForm.addEventListener("click", function (event) {
+      if (event.target === bgForm) {
+        closeForm();
+      }
+    });
+
+    // Предотвратить закрытие формы при клике внутри формы
+    form.addEventListener("click", function (event) {
+      event.stopPropagation();
+    });
+  });
+</script>
+
+<script>
+  // JavaScript
+  document.addEventListener("DOMContentLoaded", function () {
+    const bgFormZ = document.querySelector(".bg_form_z");
+    const formZ = bgFormZ.querySelector(".form");
+    const btnsOpenZ = document.querySelectorAll(".footer_btn"); // Кнопки для открытия формы .bg_form_z
+    const btnCloseZ = bgFormZ.querySelector(".close"); // Кнопка закрытия формы .bg_form_z
+
+    // Функция для открытия формы .bg_form_z
+    function openFormZ() {
+      bgFormZ.style.display = "flex";
+    }
+
+    // Функция для закрытия формы .bg_form_z
+    function closeFormZ() {
+      bgFormZ.style.display = "none";
+    }
+
+    // Добавляем обработчик событий на каждую кнопку для открытия формы .bg_form_z
+    btnsOpenZ.forEach(function (button) {
+      button.addEventListener("click", openFormZ);
+    });
+
+    // Закрыть форму при клике на кнопку закрытия
+    btnCloseZ.addEventListener("click", closeFormZ);
+
+    // Закрыть форму при клике вне формы
+    bgFormZ.addEventListener("click", function (event) {
+      if (event.target === bgFormZ) {
+        closeFormZ();
+      }
+    });
+
+    // Предотвратить закрытие формы при клике внутри формы
+    formZ.addEventListener("click", function (event) {
+      event.stopPropagation();
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Получение всех тегов и блоков контента
+    const tags = document.querySelectorAll(".tour_tag");
+    const contents = document.querySelectorAll(".tour_content");
+
+    tags.forEach((tag, index) => {
+      tag.addEventListener("click", () => {
+        // Удаление класса active у всех тегов и скрытие всех блоков контента
+        tags.forEach((t) => t.classList.remove("tour_tag_active"));
+        contents.forEach((content) => content.classList.remove("active"));
+
+        // Добавление класса active к кликнутому тегу
+        tag.classList.add("tour_tag_active");
+
+        // Показ соответствующего блока контента
+        if (contents[index]) {
+          contents[index].classList.add("active");
+        }
+      });
+    });
+  });
+</script>
+
+<script>
+  // Поиск элементов на странице
+  const burger = document.querySelector(".burger");
+  const burgerMenu = document.querySelector(".burger_menu");
+  const close = document.querySelector(".burger_menu .close");
+
+  // Функция для открытия меню
+  function openMenu() {
+    burgerMenu.classList.add("burger_menu_active"); // Добавление класса для активации меню
+    document.body.style.overflow = "hidden"; // Блокировка скролла страницы
+  }
+
+  // Функция для закрытия меню
+  function closeMenu() {
+    burgerMenu.classList.remove("burger_menu_active"); // Удаление класса для деактивации меню
+    document.body.style.overflow = ""; // Возвращение скролла страницы
+  }
+
+  // Прикрепление событий к элементам
+  burger.addEventListener("click", openMenu); // Событие клика для открытия меню
+  close.addEventListener("click", closeMenu); // Событие клика для закрытия меню
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.querySelector(".slider");
+    const dotsContainer = document.querySelector(".slider_dot");
+    const slides = slider.querySelectorAll("img");
+    const dots = [];
+
+    // Функция для обновления активного слайда и точки
+    function updateActiveSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === index);
+        dots[i].classList.toggle("active_dot", i === index);
+      });
+    }
+
+    // Создаем точки управления
+    slides.forEach((_, index) => {
+      const dot = document.createElement("span");
+      dotsContainer.appendChild(dot);
+      dots.push(dot);
+
+      dot.addEventListener("click", () => {
+        updateActiveSlide(index);
+      });
+    });
+
+    // Активируем первый слайд и точку
+    updateActiveSlide(0);
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.innerWidth >= 600) {
+      // Проверка ширины экрана
+      var container = document.querySelector(".tour_block_list_block");
+      var items = Array.from(document.querySelectorAll(".tour_block_list"));
+      var columns = [[], []]; // Для двух колонок
+      var columnHeights = [0, 0]; // Текущая высота колонок
+
+      items.forEach((item) => {
+        var minColumnIndex = columnHeights[0] <= columnHeights[1] ? 0 : 1;
+        columns[minColumnIndex].push(item);
+        columnHeights[minColumnIndex] += item.offsetHeight;
+      });
+
+      container.innerHTML = "";
+      columns.forEach((columnItems) => {
+        var columnDiv = document.createElement("div");
+        columnDiv.style.verticalAlign = "top";
+        columnItems.forEach((item) => columnDiv.appendChild(item));
+        container.appendChild(columnDiv);
+      });
+    }
+  });
+</script>
